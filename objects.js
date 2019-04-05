@@ -1,7 +1,7 @@
 let playlist = { hendrix: "Purple Haze"}
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist.artistName = songTitle
+  playlist[artistName] = songTitle
   return playlist
 }
 
